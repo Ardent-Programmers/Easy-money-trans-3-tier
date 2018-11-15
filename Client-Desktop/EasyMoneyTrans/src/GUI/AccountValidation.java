@@ -55,7 +55,6 @@ public class AccountValidation extends javax.swing.JPanel{
     private void initComponents() {
 
         jLabel1 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
         nextButton = new javax.swing.JButton();
         jSeparator1 = new javax.swing.JSeparator();
         jLabel2 = new javax.swing.JLabel();
@@ -76,16 +75,11 @@ public class AccountValidation extends javax.swing.JPanel{
         jLabel1.setForeground(new java.awt.Color(255, 244, 244));
         jLabel1.setText("EasyMoneyTrans");
 
-        jLabel3.setBackground(new java.awt.Color(242, 242, 242));
-        jLabel3.setFont(new java.awt.Font("Verdana", 1, 24)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(242, 242, 242));
-        jLabel3.setText("Next: Enetr SecretKey.... ");
-
         nextButton.setBackground(new java.awt.Color(139, 214, 255));
         nextButton.setFont(new java.awt.Font("Verdana", 1, 24)); // NOI18N
         nextButton.setForeground(new java.awt.Color(255, 244, 244));
         nextButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/GUI/assets/Go-Button.png"))); // NOI18N
-        nextButton.setText("Go..");
+        nextButton.setText("Go");
         nextButton.setBorder(null);
         nextButton.setBorderPainted(false);
         nextButton.setContentAreaFilled(false);
@@ -150,9 +144,7 @@ public class AccountValidation extends javax.swing.JPanel{
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addComponent(jLabel4)
-                        .addGap(174, 174, 174)
-                        .addComponent(jLabel3)
-                        .addGap(29, 29, 29)
+                        .addGap(545, 545, 545)
                         .addComponent(nextButton)
                         .addGap(36, 36, 36))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
@@ -196,9 +188,7 @@ public class AccountValidation extends javax.swing.JPanel{
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(7, 7, 7)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(nextButton)
-                            .addComponent(jLabel3)))
+                        .addComponent(nextButton))
                     .addComponent(jLabel4))
                 .addGap(137, 137, 137))
             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -309,7 +299,6 @@ public class AccountValidation extends javax.swing.JPanel{
     private javax.swing.JTextField AccountNo;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;

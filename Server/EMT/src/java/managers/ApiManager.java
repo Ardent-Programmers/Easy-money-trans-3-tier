@@ -102,6 +102,7 @@ public class ApiManager {
     
     
 //    this method for sending the response
+    //Take response from the server
     public void send()
     {
         PrintWriter pw = null;
@@ -118,6 +119,7 @@ public class ApiManager {
         }
     }
     
+    //send error
     public void sendError(Error err)
     {
         switch(err)

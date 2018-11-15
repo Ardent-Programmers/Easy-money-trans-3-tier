@@ -36,7 +36,6 @@ public class Welcome extends javax.swing.JPanel{
 
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
         nextButton = new javax.swing.JButton();
         jLabel4 = new javax.swing.JLabel();
 
@@ -56,16 +55,11 @@ public class Welcome extends javax.swing.JPanel{
         jLabel2.setForeground(new java.awt.Color(139, 214, 255));
         jLabel2.setText("Welcome");
 
-        jLabel3.setBackground(new java.awt.Color(242, 242, 242));
-        jLabel3.setFont(new java.awt.Font("Verdana", 1, 24)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(242, 242, 242));
-        jLabel3.setText("Next: swip Your card OR Enter Your AccountNo...");
-
         nextButton.setBackground(new java.awt.Color(139, 214, 255));
         nextButton.setFont(new java.awt.Font("Verdana", 1, 24)); // NOI18N
         nextButton.setForeground(new java.awt.Color(255, 244, 244));
         nextButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/GUI/assets/Go-Button.png"))); // NOI18N
-        nextButton.setText("Go..");
+        nextButton.setText("Go");
         nextButton.setBorder(null);
         nextButton.setBorderPainted(false);
         nextButton.setContentAreaFilled(false);
@@ -96,8 +90,6 @@ public class Welcome extends javax.swing.JPanel{
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(jLabel3)
-                        .addGap(29, 29, 29)
                         .addComponent(nextButton)
                         .addGap(79, 79, 79))))
         );
@@ -114,9 +106,7 @@ public class Welcome extends javax.swing.JPanel{
                         .addGap(38, 38, 38)
                         .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 303, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(167, 167, 167)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(nextButton)
-                    .addComponent(jLabel3))
+                .addComponent(nextButton)
                 .addGap(124, 124, 124))
         );
     }// </editor-fold>//GEN-END:initComponents
@@ -146,7 +136,6 @@ public class Welcome extends javax.swing.JPanel{
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JButton nextButton;
     // End of variables declaration//GEN-END:variables
