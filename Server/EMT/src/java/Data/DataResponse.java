@@ -9,6 +9,8 @@ package Data;
  *
  * @author User
  */
+
+//Response message containing data+status+error
 public class DataResponse {
     boolean status;
     Object data;
